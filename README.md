@@ -1,4 +1,5 @@
-Descrição do Código - Força Bruta em Arquivos PDF com Processamento Paralelo (Atenção: Este código é para fins educacionais e deve ser usado apenas com arquivos que você tem permissão legal para acessar.)
+Força Bruta em Arquivos PDF com Processamento Paralelo (Atenção: Este código é para fins educacionais e deve ser usado apenas com arquivos que você tem permissão legal para acessar.)
+
 Este projeto implementa uma ferramenta de força bruta para descobrir a senha de arquivos PDF protegidos. O script utiliza processamento paralelo para maximizar a performance em máquinas com múltiplos núcleos. Ele gera combinações de senhas com base em um conjunto de caracteres especificado e testa cada uma para desbloquear o PDF. A seguir, estão os principais componentes do código:
 
 Geração de Senhas:
