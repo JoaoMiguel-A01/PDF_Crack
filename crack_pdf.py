@@ -21,7 +21,7 @@ def try_password(pdf_path, password):
 
 def brute_force_pdf_parallel(pdf_path, length):
     """Tenta força bruta paralela em um arquivo PDF."""
-    characters = '0123456789'
+    characters = '0123456789' #Substitua para os tipos de caracteres desejados
     num_workers = multiprocessing.cpu_count()  # Usa o número máximo de núcleos disponíveis
     print(f"Usando {num_workers} núcleos para força bruta no arquivo: {pdf_path}")
     
@@ -54,8 +54,8 @@ def brute_force_pdf_parallel(pdf_path, length):
 
 if __name__ == '__main__':
     # Substitua pelo caminho do seu arquivo PDF
-    pdf_file = "C:/Users/eujoa/Desktop/pdfcrack/09_2024_segunda-via_01.pdf"
-    max_length = 5
+    pdf_file = "C:/Users/seuUsuario/Desktop/pdfcrack/PDFdeteste.pdf"
+    max_length = 1
 
     while True:
         result = brute_force_pdf_parallel(pdf_file, max_length)
